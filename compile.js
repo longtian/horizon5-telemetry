@@ -91,10 +91,10 @@ const DATATYPES = {
 console.log(`/**
 * DO NOT EDIT
 * use \`node compile.js  > generated_parse_data.js\` to generate
-* @version=${pkg.version}
-* @generated_at=${new Date()}
-* @param msg Buffer
-* @returns payload Object
+* @version v${pkg.version}
+* @link https://github.com/longtian/horizon5-telemetry/blob/v${pkg.version}/compile.js
+* @param {Buffer} msg raw buffer message
+* @returns {Object} parsed payload
 */
 module.exports=function parseData(msg){
   let payload = {};`)

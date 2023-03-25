@@ -1,10 +1,10 @@
 /**
 * DO NOT EDIT
 * use `node compile.js  > generated_parse_data.js` to generate
-* @version=0.0.1
-* @generated_at=Sat Mar 25 2023 16:45:38 GMT+0800 (China Standard Time)
-* @param msg Buffer
-* @returns payload Object
+* @version v0.0.2
+* @link https://github.com/longtian/horizon5-telemetry/blob/v0.0.2/compile.js
+* @param {Buffer} msg raw buffer message
+* @returns {Object} parsed payload
 */
 module.exports=function parseData(msg){
   let payload = {};
